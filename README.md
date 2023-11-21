@@ -7,10 +7,11 @@
 The playbook InstallQCA.yml can be used to deploy QCA across the assets included in your "host" file. Additionally, you can use the tags to deploy QCA on your instances.
 
 The required input parameters are:
+
 - private-key = private-key to access the instances (Ansible works via SSH)
 - ssh_user = username to login into the instance
 - URL = the URL where the file is hosted For example: Webserver, S3, Blob Storage, Cloud Storage
-- ActivationID = An ID that provides a way to group agents and bind them to your account 
+- ActivationID = An ID that provides a way to group agents and bind them to your account
 - CustomerID = An ID to identify your account
 
 ## Usage
